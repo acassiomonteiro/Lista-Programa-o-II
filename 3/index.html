@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Algoritimo</title>
+    
+</head>
+<body>
+
+  <div class="d-flex justify-content-center">
+
+    <form method="get" action="algoritimo.php">
+      <label for="nome">Nome:</label><br>
+      <input type="text" id="nome" name="nome" required value=""><br> 
+      <label for="estado" class="form-label">Sexo:</label>
+      <select id="estado" class="form-select">
+        <option selected>Sexo...</option>
+        <option>masculino</option>
+        <option>femenino</option>
+      </select>
+      <label for="idade">Ano de Nascimento:</label><br>
+      <input type="number" id="ano" name="ano" required value=""><br> 
+      <label for="idade">Idade:</label><br>
+      <input type="number" id="idade" name="idade" required value=""><br> 
+
+      <input type="submit" class="btn btn-primary volue="calcular"/>
+    </form>
+  </div>
+
+
+
+
+  <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
